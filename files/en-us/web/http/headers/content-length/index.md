@@ -8,6 +8,7 @@ browser-compat: http.headers.Content-Length
 {{HTTPSidebar}}
 
 The HTTP **`Content-Length`** header indicates the size, in bytes, of the message body sent to the recipient.
+Note that this might not be the real size of the resource: compression (for example gzip encoding) reduces the size sent through the network.
 
 <table class="properties">
   <tbody>
